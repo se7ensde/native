@@ -193,7 +193,7 @@ cc_library_shared {
     ],
     logtags: ["EventLog/EventLogTags.logtags"],
     product_variables: {
-        lineage: {
+        bliss: {
             uses_qcom_um_3_18_family: {
                 header_libs: [
                     "//hardware/qcom-caf/msm8996/display:display_intf_headers",
